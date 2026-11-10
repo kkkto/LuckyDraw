@@ -175,7 +175,7 @@ app/src/main/
 
 ## 7. APK 링크
 
-- **공유 URL (https://github.com/kkkto/LuckyDraw/releases/tag/v1.0.0
+- **공유 URL (https://github.com/kkkto/LuckyDraw/releases/tag/v1.0.0)
 
 ## 8. 참고
 
