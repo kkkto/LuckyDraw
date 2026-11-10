@@ -1,0 +1,15 @@
+﻿<resources>
+    <style name="Theme.LuckyDraw" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ld_accent</item>
+        <item name="colorPrimaryVariant">@color/ld_text_primary</item>
+        <item name="colorOnPrimary">@color/ld_button_text</item>
+        <item name="colorSecondary">@color/ld_accent_muted</item>
+        <item name="colorOnSecondary">@color/ld_text_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:statusBarColor">@color/ld_bg</item>
+        <item name="android:navigationBarColor">@color/ld_bg</item>
+        <item name="android:windowLightStatusBar">@bool/ld_light_system_bars</item>
+        <item name="android:windowLightNavigationBar">@bool/ld_light_system_bars</item>
+        <item name="android:windowBackground">@color/ld_bg</item>
+    </style>
+</resources>

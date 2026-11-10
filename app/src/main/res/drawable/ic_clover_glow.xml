@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- 은은한 빛 후광 -->
+    <path
+        android:fillAlpha="0.38"
+        android:fillColor="#FFE58A"
+        android:pathData="M24,24m-19,0a19,19 0,1 1,38 0a19,19 0,1 1,-38 0" />
+    <!-- 네잎클로버 잎사귀 -->
+    <path
+        android:fillColor="#5BB365"
+        android:pathData="M24,23 C11,23 12,8 19.5,9 C24,9 24,15.5 24,20 C24,15.5 24,9 28.5,9 C36,8 37,23 24,23 Z" />
+    <path
+        android:fillColor="#72B879"
+        android:pathData="M25,24 C25,11 40,12 39,19.5 C39,24 32.5,24 28,24 C32.5,24 39,24 39,28.5 C40,36 25,37 25,24 Z" />
+    <path
+        android:fillColor="#5BB365"
+        android:pathData="M23,25 C36,25 35,40 27.5,39 C23,39 23,32.5 23,28 C23,32.5 23,39 18.5,39 C11,40 10,25 23,25 Z" />
+    <path
+        android:fillColor="#72B879"
+        android:pathData="M23,23 C23,36 8,35 9,27.5 C9,23 15.5,23 20,23 C15.5,23 9,23 9,18.5 C8,11 23,10 23,23 Z" />
+    <!-- 줄기 -->
+    <path
+        android:fillColor="#315C3B"
+        android:pathData="M23,25 C27.5,25 28.5,24 28.5,24 C27.5,28 26.5,31 24.8,34 C24,35 22.2,34 23,32 C23.8,30 23.8,28 23,25 Z" />
+    <!-- 반짝이는 별빛 포인트 (우상단, 좌상단, 우하단) -->
+    <path
+        android:fillColor="#F5B82E"
+        android:pathData="M39,6 L40.3,9.7 L44,11 L40.3,12.3 L39,16 L37.7,12.3 L34,11 L37.7,9.7 Z" />
+    <path
+        android:fillColor="#F5B82E"
+        android:pathData="M9,7 L9.9,9.6 L12.5,10.5 L9.9,11.4 L9,14 L8.1,11.4 L5.5,10.5 L8.1,9.6 Z" />
+    <path
+        android:fillColor="#F5B82E"
+        android:pathData="M38,35 L38.8,37.2 L41,38 L38.8,38.8 L38,41 L37.2,38.8 L35,38 L37.2,37.2 Z" />
+</vector>

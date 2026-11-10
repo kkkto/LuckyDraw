@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ld_bg_card"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end|center_vertical"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFortuneVoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/fortune_voice_on"
+                android:textColor="@color/ld_text_primary"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:backgroundTint="@color/ld_card_soft" />
+            <TextView
+                android:id="@+id/btnFortuneClose"
+                style="@style/LD.Title"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/fortune_close"
+                android:gravity="center"
+                android:text="×"
+                android:textSize="26sp" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/ivFortuneBadge"
+            android:layout_width="120dp"
+            android:layout_height="64dp"
+            android:contentDescription="@null"
+            android:importantForAccessibility="no"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ld_badge_daegil" />
+        <TextView
+            android:id="@+id/tvDialogGrade"
+            style="@style/LD.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="@string/park_grade_waiting" />
+        <ImageView
+            android:id="@+id/ivFortuneFairy"
+            android:layout_width="196dp"
+            android:layout_height="196dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/cd_fairy_art"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ld_fairy_daegil_v2" />
+        <TextView
+            android:id="@+id/tvDialogMessage"
+            style="@style/LD.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="@string/park_message_initial" />
+        <TextView
+            android:id="@+id/tvDialogScore"
+            style="@style/LD.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/ld_bg_soft"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/park_grade_waiting" />
+        <TextView
+            android:id="@+id/tvDialogSummary"
+            style="@style/LD.Muted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/park_summary_initial" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFortuneConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="52dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/fortune_confirm"
+            android:textColor="@color/ld_button_text"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:backgroundTint="@color/ld_accent" />
+    </LinearLayout>
+</ScrollView>

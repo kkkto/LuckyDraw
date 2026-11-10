@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ld_bg">#F7FBF6</color>
+    <color name="ld_card">#FFFFFF</color>
+    <color name="ld_card_soft">#EDF7EE</color>
+    <color name="ld_text_primary">#254E36</color>
+    <color name="ld_text_secondary">#52715B</color>
+    <color name="ld_accent">#57AD6C</color>
+    <color name="ld_accent_muted">#B9EBC4</color>
+    <color name="ld_button_text">#FFFFFF</color>
+    <color name="ld_grade_daegil">#F5C84F</color>
+    <color name="ld_grade_gil">#6FC977</color>
+    <color name="ld_grade_sogil">#80D0E3</color>
+    <color name="ld_grade_hyung">#F28B86</color>
+    <color name="ld_grade_on_color">#102B24</color>
+</resources>

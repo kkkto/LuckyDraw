@@ -1,0 +1,21 @@
+<resources>
+    <style name="LD" />
+    <style name="LD.Title">
+        <item name="android:textColor">@color/ld_text_primary</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="LD.Body">
+        <item name="android:textColor">@color/ld_text_primary</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="LD.Muted">
+        <item name="android:textColor">@color/ld_text_secondary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="LD.RouteTitle">
+        <item name="android:textColor">@color/ld_text_primary</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

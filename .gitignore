@@ -1,0 +1,14 @@
+.gradle/
+.idea/
+.kotlin/
+.android-build/
+local.properties
+**/build/
+*.apk
+*.jks
+*.keystore
+*.env
+secrets.properties
+credentials/
+.codex-design-backup/
+*.docx
