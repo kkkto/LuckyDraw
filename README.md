@@ -69,6 +69,8 @@ GitHub에 업로드된 APK 파일을 다운로드하면 소스 코드를 직접 
 
 **3. APK 설치**
 
+. APK 링크
+- **공유 URL (https://github.com/kkkto/LuckyDraw/releases/tag/v1.0.0)
 APK 파일을 다운로드한 폴더에서 터미널을 열고 다음 명령어를 실행합니다.
 
 ```bash
@@ -173,11 +175,8 @@ app/src/main/
 - **코스 정보:** 추천 코스 거리·소요 시간은 추정치이며 실시간 경로 탐색 결과가 아닙니다. 별점 또한 로컬 JSON에 저장된 값입니다.
 - **검증 상태:** 보고서 기준 `:app:assembleDebug` 빌드 성공. 실차 통합 테스트 및 자동화 테스트 완료를 의미하지는 않습니다.
 
-## 7. APK 링크
 
-- **공유 URL (https://github.com/kkkto/LuckyDraw/releases/tag/v1.0.0)
-
-## 8. 참고
+## 7. 참고
 
 - [Pleos TextToSpeech 공식 가이드](https://document.pleos.ai/docs/pleos-only/connect-sdk-pleos/TextToSpeech/intro)
 - 프로젝트 기획 및 개발결과보고서 기준: **2026-11-09**
