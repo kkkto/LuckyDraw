@@ -56,6 +56,8 @@ Lucky Draw는 차량의 기어(D/P), 브레이크 상태, GPS 위치를 활용�
 ### 3-1. APK 파일로 설치
 
 GitHub에 업로드된 APK 파일을 다운로드하면 소스 코드를 직접 빌드하지 않고 앱을 설치할 수 있습니다.
+APK 링크
+- **공유 URL (https://github.com/kkkto/LuckyDraw/releases/tag/v1.0.0)
 
 **1. APK 다운로드**
 1. GitHub 저장소에 접속합니다.
@@ -68,10 +70,7 @@ GitHub에 업로드된 APK 파일을 다운로드하면 소스 코드를 직접 
 3. 에뮬레이터가 정상적으로 부팅되었는지 확인합니다.
 
 **3. APK 설치**
-
-APK 링크
-- **공유 URL (https://github.com/kkkto/LuckyDraw/releases/tag/v1.0.0)
-APK 파일을 다운로드한 폴더에서 터미널을 열고 다음 명령어를 실행합니다.
+1. APK 파일을 다운로드한 폴더에서 터미널을 열고 다음 명령어를 실행합니다.
 
 ```bash
 adb devices
