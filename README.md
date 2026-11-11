@@ -69,7 +69,7 @@ GitHub에 업로드된 APK 파일을 다운로드하면 소스 코드를 직접 
 
 **3. APK 설치**
 
-. APK 링크
+APK 링크
 - **공유 URL (https://github.com/kkkto/LuckyDraw/releases/tag/v1.0.0)
 APK 파일을 다운로드한 폴더에서 터미널을 열고 다음 명령어를 실행합니다.
 
