@@ -33,11 +33,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-    if (localStateDir != null) {
-        signingConfigs.getByName("debug") {
-            storeFile = File(localStateDir, "debug.keystore")
-        }
-    }
+  
 
 }
 
