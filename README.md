@@ -52,46 +52,23 @@ Lucky Draw는 차량의 기어(D/P), 브레이크 상태, GPS 위치를 활용�
 **참고:** 개발결과보고서 기준 `NaviHelper 3.0.5` 의존성은 설정에 선언되어 있지만, `gradle.properties`의 `skipPleosNavi=true`로 현재 빌드에서는 건너뛰도록 구성되어 있습니다. 환경별 SDK 및 의존성 접근 권한을 확인해 주세요.
 
 ## 3. 실행 방법
-(APK 파일 크기가 커서 실행되지 않습니다. 코드를 다운받아 실행하는 방법으로 진행해주세요.)
-### 3-1. GitHub 소스코드 다운로드
 
-1. [Lucky Draw GitHub 저장소](https://github.com/kkkto/LuckyDraw)에 접속합니다.
-2. 저장소 상단의 **Code → Download ZIP**을 선택하여 전체 소스코드를 다운로드합니다.
-3. 다운로드한 `LuckyDraw-main.zip` 파일을 마우스 오른쪽 버튼으로 클릭하고 **모두 압축 풀기**를 선택합니다.
-4. 압축 해제된 `LuckyDraw-main` 프로젝트 폴더를 확인합니다.
+### 3-1. APK 다운로드 및 에뮬레잍터 직접 설치
 
-> **주의:** Android Studio에서 ZIP 파일을 직접 열면 LightEdit 모드로 실행될 수 있으므로, 반드시 압축 해제 후 프로젝트 폴더를 열어야 합니다.
+Lucky Draw는 **Android Automotive OS (Pleos Connect)** 환경에 최적화된 앱입니다.  
+소스 코드를 빌드할 필요 없이 배포된 APK 파일을 에뮬레이터에 바로 설치할 수 있습니다.
 
-### 3-2. Android Studio에서 프로젝트 열기
+1. **에뮬레이터 실행:**  
+   Android Studio의 Device Manager에서 **Pleos Connect 기반 AAOS 에뮬레이터**를 실행합니다.
+2. **APK 다운로드:**  
+   [LuckyDraw v1.0.1 Releases](https://github.com/kkkto/LuckyDraw/releases/tag/v1.0.1) 페이지에서 `luckyy_LuckyDraw_release.apk`를 다운로드합니다.
+3. **설치 (Drag & Drop):**  
+   다운로드받은 `.apk` 파일을 마우스로 끌어 실행 중인 **에뮬레이터 화면 위로 드래그 앤 드롭**합니다.
+4. **실행:**  
+   에뮬레이터 앱 서랍(목록)에서 **Lucky Draw** (네잎클로버 아이콘)를 클릭하여 실행합니다.
 
-1. Android Studio를 실행합니다.
-2. 상단 메뉴에서 **File → Open**을 선택합니다.
-3. 압축 해제한 `LuckyDraw-main` 폴더를 선택합니다.
-4. 프로젝트 최상위 폴더에 `settings.gradle.kts`, `build.gradle.kts`, `app` 폴더가 있는지 확인합니다.
-5. **OK**를 클릭하여 프로젝트를 엽니다.
-6. Gradle 동기화가 완료될 때까지 기다립니다.
 
-Gradle 동기화가 자동으로 시작되지 않는 경우 **File → Sync Project with Gradle Files**를 선택합니다.
-
-> **참고:** 최초 실행 시 Gradle 및 Android SDK 관련 파일을 다운로드하므로 시간이 소요될 수 있습니다. Pleos SDK 의존성에 접근할 수 있는 개발 환경이 필요합니다.
-
-### 3-3. Pleos Connect 에뮬레이터 실행
-
-1. Android Studio에서 **Tools → Device Manager**를 실행합니다.
-2. 설치된 **Pleos Connect 기반 AAOS 에뮬레이터**를 선택합니다.
-3. 실행 버튼을 눌러 에뮬레이터를 시작합니다.
-4. 에뮬레이터가 정상적으로 부팅되었는지 확인합니다.
-5. 필요한 경우 Pleos Virtual Console을 연결하여 차량 데이터를 제어합니다.
-
-### 3-4. 앱 빌드 및 실행
-
-1. Android Studio 상단의 실행 구성에서 **app**을 선택합니다.
-2. 실행 기기로 Pleos Connect 기반 AAOS 에뮬레이터를 선택합니다.
-3. 상단의 **Run ▶** 버튼을 클릭합니다.
-4. Gradle 빌드가 완료되면 앱이 에뮬레이터에 설치되고 실행됩니다.
-5. 에뮬레이터 앱 목록에서 **Lucky Draw**가 정상적으로 표시되는지 확인합니다.
-
-### 3-5. 주요 기능 시연 방법
+### 3-2. 주요 기능 시연 방법
 
 에뮬레이터에서 차량 데이터를 직접 제어하기 어려운 경우 앱에 포함된 시뮬레이션 모드를 활용할 수 있습니다.
 
